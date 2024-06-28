@@ -1,0 +1,32 @@
+{
+  "name": "typescript-phaser3-boilerpate",
+  "version": "0.0.2",
+  "description": "",
+  "keywords": [],
+  "author": "unknown",
+  "license": "MIT",
+  "main": "dist/electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "lodash-es": "^4.17.21",
+    "phaser": "^3.55.2",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "vite-plugin-chunk-split": "^0.4.6",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
